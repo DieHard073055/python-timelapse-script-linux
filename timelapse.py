@@ -18,3 +18,5 @@ outputname = 'timelapse.mp4'
 	cmd = "cp " + pics_dir_proper + "/" + filename + " " + newname
 
 	os.system(cmd)
+cmd = "mkdir timelapsefootage" 
+	imagenumber = imagenumber+1
