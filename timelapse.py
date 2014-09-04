@@ -10,3 +10,5 @@ imagenumber = 0
 	files.append(str(filename))
 pics_dir = 'myfootage'
 files.sort()
+pics_dir_proper =  pics_dir
+for filename in files:
