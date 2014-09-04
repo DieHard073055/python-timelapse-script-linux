@@ -16,3 +16,5 @@ new_dir = "timelapsefootage/"
 	newname = new_dir + str(imagenumber) + ".JPG"
 outputname = 'timelapse.mp4'
 	cmd = "cp " + pics_dir_proper + "/" + filename + " " + newname
+
+	os.system(cmd)
