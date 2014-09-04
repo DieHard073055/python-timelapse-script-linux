@@ -14,3 +14,5 @@ pics_dir_proper =  pics_dir
 for filename in files:
 new_dir = "timelapsefootage/"
 	newname = new_dir + str(imagenumber) + ".JPG"
+outputname = 'timelapse.mp4'
+	cmd = "cp " + pics_dir_proper + "/" + filename + " " + newname
