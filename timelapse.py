@@ -20,3 +20,5 @@ outputname = 'timelapse.mp4'
 	os.system(cmd)
 cmd = "mkdir timelapsefootage" 
 	imagenumber = imagenumber+1
+os.system(cmd)
+cmd = 'ffmpeg/ffmpeg -f image2 -i ' + new_dir + '%d.JPG -r 25 -s 960x640 -vcodec libx264 ' + outputname
