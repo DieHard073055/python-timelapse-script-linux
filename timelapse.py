@@ -12,3 +12,5 @@ pics_dir = 'myfootage'
 files.sort()
 pics_dir_proper =  pics_dir
 for filename in files:
+new_dir = "timelapsefootage/"
+	newname = new_dir + str(imagenumber) + ".JPG"
